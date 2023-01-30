@@ -14,7 +14,8 @@ int CutNumber(int number)
             return result; 
         }  
 */  
-//Задача 13: Напишите программу, которая выводит третью цифру заданного числа.  
+//Задача 13: Напишите программу, которая выводит третью цифру заданного числа.   
+/* 
 int MakeArray(int a, int b)
 {
 int result = 0;
@@ -41,4 +42,5 @@ int ReadInt(string message)
 {
  Console.Write(message);
  return Convert.ToInt32(Console.ReadLine());
-}
+}  
+*/
