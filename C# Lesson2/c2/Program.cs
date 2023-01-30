@@ -45,7 +45,8 @@ int ReadInt(string message)
 }  
 */    
 //Задача 15: 
-//Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+//Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.  
+/*
 string WorkHoliday(int a)
 {
     if (a > 0 && a < 8)
@@ -71,4 +72,5 @@ int ReadInt(string message)
     return Convert.ToInt32(Console.ReadLine());
 }  
 int dayNumber = ReadInt("Введите число от 1 до 7: ");
-Console.WriteLine(WorkHoliday(dayNumber));
+Console.WriteLine(WorkHoliday(dayNumber));  
+*/
