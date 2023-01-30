@@ -75,6 +75,7 @@ int dayNumber = ReadInt("Введите число от 1 до 7: ");
 Console.WriteLine(WorkHoliday(dayNumber));  
 */  
 //Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.  
+/*  
 int ReadInt(string message)
 {
     Console.Write(message);
@@ -97,5 +98,6 @@ if (amount < 3 || amount > 3)
 else
 {
     Console.WriteLine(InCenter(number));
-}
+}  
+*/
 
