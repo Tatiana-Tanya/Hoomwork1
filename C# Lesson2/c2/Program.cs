@@ -73,9 +73,9 @@ int ReadInt(string message)
 }  
 int dayNumber = ReadInt("Введите число от 1 до 7: ");
 Console.WriteLine(WorkHoliday(dayNumber));  
-*/  
-//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.  
 /*  
+//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.  
+
 int ReadInt(string message)
 {
     Console.Write(message);
@@ -119,8 +119,63 @@ else
   {  
       Console.WriteLine("No");  
   }    
+  */ 
+ //Задача 2. Напишите программу,которая на вход принемает одно число(N),а на выходе показывает все целые числа в промежутке от -N до N.   
+ /*  
+
+   Console.Write("Input a number:");  
+   int n = Convert.ToInt32(Console.ReadLine());  
+   int current = -n;  
+   while(current <= n)   
+   {  
+      Console.Write(current + "");  
+      current ++;  
+   }    
+   */   
+   /* 
+   int CutNumber(int number)  
+   {  
+    int sot = number / 100;  
+    int ed = number % 10;  
+      
+    int result = sot * 10 + ed;  
+    return result;  
+   }    
+   Console.Write("Input a number:");  
+   int num = Convert.ToInt32(Console.ReadLine());  
+   int newNum = CutNumber(num);  
+   Console.WriteLine($"new version of{num} is {newNum}");  
+   */  
+  // Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0 и  
+  // выдаёт номер четверти плоскости, в которой находится эта точка.  
+  /*int[] CreateRandomArray(int size,int minValue,int maxValue)  
+  {  
+    int [] array = new int [size];  
+    for( int i =0;i< size; i++)  
+        array[i] = new Random().Next(minValue,maxValue +1);  
+        return array;  
+  }  
+  void ShowArray(int[]array)  
+  {  
+    for(int i = 0; i < array.Length ; i ++)  
+    Console.Write(array[i] + "");  
+    Console.WriteLine();  
+  }  
+  Console.Write("Input a length of new array:");  
+  int length = Convert.ToInt32(Console.ReadLine());  
+  Console.Write("Input a min possible value:");  
+  int min = Convert.ToInt32(Console.ReadLine());  
+  Console.Write("Input a max possible value:");  
+  int max = Convert.ToInt32(Console.ReadLine());  
+    
+  int[] myArray = CreateRandomArray(length,min,max);  
+  ShowArray(myArray); 
+*/
+
+
    
- //Задача 2. Напишите программу,которая на вход принемает одно число(N),а на выходе показывает все целые числа в промежутке от -N до N.  
+   
+   
    
 
     
