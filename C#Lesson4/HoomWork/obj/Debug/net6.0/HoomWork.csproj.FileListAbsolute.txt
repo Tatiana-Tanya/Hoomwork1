@@ -1,0 +1,15 @@
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\bin\Debug\net6.0\HoomWork.exe
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\bin\Debug\net6.0\HoomWork.deps.json
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\bin\Debug\net6.0\HoomWork.runtimeconfig.json
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\bin\Debug\net6.0\HoomWork.dll
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\bin\Debug\net6.0\HoomWork.pdb
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.csproj.AssemblyReference.cache
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.AssemblyInfoInputs.cache
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.AssemblyInfo.cs
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.csproj.CoreCompileInputs.cache
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.dll
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\refint\HoomWork.dll
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.pdb
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\HoomWork.genruntimeconfig.cache
+C:\Users\duyma\OneDrive\Рабочий стол\git_gicbrains\C#Lesson4\HoomWork\obj\Debug\net6.0\ref\HoomWork.dll
