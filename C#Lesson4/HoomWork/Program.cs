@@ -36,4 +36,24 @@ void ShowCoordinate(int quadNum)
   */
 
   //Напишите программу, которая принемает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.  
-  
+  /*   
+
+    double LenthPoint(double xA, double yA, double xB, double yB)  
+    {  
+        double kat1 = xB - xA;  
+        double kat2 = yB - yA;  
+        double gip = Math.Sqrt(Math.Pow(kat1,2) + Math.Pow(kat2,2));  
+        return gip;  
+    }  
+    Console.Write("Input xA");  
+    double xA = Convert.ToDouble(Console.ReadLine());  
+    Console.Write("Input yA");  
+    double yA = Convert.ToDouble(Console.ReadLine());  
+    Console.Write("Input xB:");  
+    double xB = Convert.ToDouble(Console.ReadLine());  
+    Console.Write("Input yB: ");  
+    double yB = Convert.ToDouble(Console.ReadLine());  
+    double result = LenthPoint(xA,yA,xB,yA);  
+    Console.WriteLine(Math.Round(result,2));  
+    */  
+    
