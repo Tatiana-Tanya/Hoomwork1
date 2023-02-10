@@ -95,7 +95,8 @@ int ReadInt(string message)
  return Convert.ToInt32(Console.ReadLine());
 }  
 */   
-// Задача 27.Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе. 
+// Задача 27.Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.   
+ /*
   void SumNumbers(int n, int len)
 {
     int sum = 0;
@@ -123,5 +124,25 @@ int ReadInt(string message)
 {
     Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
-}
+}  
+*/    
+//Задача 29.Напишите программу, которая задаёт массив из N элементов и выводит их на экран.  
+/* 
+int lenArray = ReadInt("Enter the lenght of the array:");
+
+int[] randomArray = new int[lenArray];
+for (int i = 0; i < randomArray.Length; i++)
+{
+    randomArray[i] = new Random().Next(1,9);
+    Console.Write(randomArray[i] + " ");
+}  
+
+
+int ReadInt(string message)
+{
+    Console.Write(message);
+    return Convert.ToInt32(Console.ReadLine());
+}   
+*/  
+
     
