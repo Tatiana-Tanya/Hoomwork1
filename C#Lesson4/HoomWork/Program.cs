@@ -33,7 +33,26 @@ void ShowCoordinate(int quadNum)
   Console.Write("Input a number:");  
   int num = Convert.ToInt32(Console.ReadLine());  
   Shown(num);    
-  */
+  */    
+  //Задача 25.Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.  
+  /*
+  void ToDegree(int a, int b)
+{
+ int result = 1;
+ for (int i = 1; i <= b; i++)
+    {
+ result = result * a;
+    }
+ Console.WriteLine(result);
+}  
+int numberA = ReadInt("Введите число A: ");
+int numberB = ReadInt("Введите число B: ");
+ToDegree(numberA, numberB);  
+int ReadInt(string message)
+{
+ Console.WriteLine(message);
+ return Convert.ToInt32(Console.ReadLine());
+}
 
   //Напишите программу, которая принемает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.  
   /*   
@@ -55,5 +74,26 @@ void ShowCoordinate(int quadNum)
     double yB = Convert.ToDouble(Console.ReadLine());  
     double result = LenthPoint(xA,yA,xB,yA);  
     Console.WriteLine(Math.Round(result,2));  
-    */  
+    */   
+   //Задача 25.Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.  
+  /*
+  void ToDegree(int a, int b)
+{
+ int result = 1;
+ for (int i = 1; i <= b; i++)
+    {
+ result = result * a;
+    }
+ Console.WriteLine(result);
+}  
+int numberA = ReadInt("Введите число A: ");
+int numberB = ReadInt("Введите число B: ");
+ToDegree(numberA, numberB);  
+int ReadInt(string message)
+{
+ Console.WriteLine(message);
+ return Convert.ToInt32(Console.ReadLine());
+}  
+*/  
+  
     
