@@ -88,8 +88,29 @@ int[] CreateRandomArray(int size,int minValue,int maxValue)
   //Напишите программу, которая перевернёт одномерный массив (последний элемент будет на первом месте, а первый - на последнем и т.д.)  
  // void ReverseArray(int[]array)  
   //{  
- //   for(int i = 0;i < array.)  
- //Напишите программу, которая принимает на вход три числа и проверяет, может ли существовать треугольник с сторонами такой длины.  
+ //   for(int i = 0;i < array.Length/2;i++)    
+ //{  
+   // int temp = array[i];  
+   //array[i]=array[array.Length -1 -i];  
+   //array[array.Length -1-i]=temp;  
+   //}  
+   //}  
+   //---6 строк скоп. и далее вывод  
+   //ShowArray(myArray);  
+   //ReverseArray(myArray);  
+   //ShowArray(myArray);  
+   //Еще один вариант этой задачи(более компакт.)  
+   //void ReverseArray(int[]array)  
+   //{  
+    //for(int i = 0;j = array.Lengh -1;i < j;i++,j--)  
+    //{    
+   //int temp = array[i];  
+   //array[i] = array[j];  
+   //array[j] = temp;  
+   //}  
+   //}
+ //Напишите программу, которая принимает на вход три числа и проверяет, может ли существовать треугольник с сторонами такой длины.   
+
  //Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: a и b  
  //Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.    
  /*
@@ -107,10 +128,15 @@ int[] CreateRandomArray(int size,int minValue,int maxValue)
     }  
  }  
  PrintImage(Pic) 
- */  
+ */   
+ //Задача на рекурсию  
+ /* 
  int Factorial(int n)  
  {  
     if(n==1)return 1;  
     else return n * Factorial(n-1);  
- }  
- Console.WriteLine(Factorial(3));
+ }    
+
+ Console.WriteLine(Factorial(3));  
+ */  
+ 
