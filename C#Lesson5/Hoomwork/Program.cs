@@ -85,4 +85,32 @@ int[] CreateRandomArray(int size,int minValue,int maxValue)
   ShowArray(myArray);  
   Console.WriteLine($"Number of elements in range[{numStart},{numEnd}]:{NumberOfElements(myArray,numStart,numEnd)}");  
   */  
-  
+  //Напишите программу, которая перевернёт одномерный массив (последний элемент будет на первом месте, а первый - на последнем и т.д.)  
+ // void ReverseArray(int[]array)  
+  //{  
+ //   for(int i = 0;i < array.)  
+ //Напишите программу, которая принимает на вход три числа и проверяет, может ли существовать треугольник с сторонами такой длины.  
+ //Не используя рекурсию, выведите первые N чисел Фибоначчи. Первые два числа Фибоначчи: a и b  
+ //Напишите программу, которая будет создавать копию заданного массива с помощью поэлементного копирования.    
+ /*
+ int[,]pic = new int  
+ void PrintImage(int[,]image)  
+ {  
+    for (int i = 0;i < image.Getlegth(0);i++)  
+    {  
+        for(int j = 0;j < image.Getlegth(1);j++)  
+        {  
+            if(image[i,j]==0)Console.Write($" ");  
+            else Console.Write($"+");  
+        }  
+        Console.WriteLine();  
+    }  
+ }  
+ PrintImage(Pic) 
+ */  
+ int Factorial(int n)  
+ {  
+    if(n==1)return 1;  
+    else return n * Factorial(n-1);  
+ }  
+ Console.WriteLine(Factorial(3));
