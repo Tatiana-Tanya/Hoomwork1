@@ -247,7 +247,7 @@ for (int z = 0; z < numbers.Length; z++)
 Console.WriteLine($"всего {numbers.Length} чисел. Максимальное значение = {max}, минимальное значение = {min}");
 Console.WriteLine($"Разница между максимальным и минимальным значением = {max - min}");  
 */  
-int[,] pic = new int[,]  
+int[,] pic = new int[,]   
 {  
     {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},  
     {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0},  
@@ -270,8 +270,20 @@ int[,] pic = new int[,]
     {0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0},  
     {0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,0,0,0},  
     {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},  
-}   
-
+};   
+void PrintImage(int[,]image)  
+ {  
+    for (int i = 0; i < image.GetLength(0); i++)  
+    {  
+        for(int j = 0; j < image.GetLength(1); j++)  
+        {  
+            if(image[i,j] == 0)Console.Write($" ");  
+            else Console.Write($"+");  
+        }  
+        Console.WriteLine();  
+    }  
+ }  
+ PrintImage(pic); 
 
 
 
