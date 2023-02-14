@@ -1,4 +1,7 @@
-﻿int[,] pic = new int[,]   
+﻿/*
+
+  
+int[,] pic = new int[,]   
 {  
     {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},  
     {0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0},  
@@ -34,5 +37,6 @@ void PrintImage(int[,]image)
         Console.WriteLine();  
     }  
  }  
- PrintImage(pic); 
-
+ PrintImage(pic);  
+ */  
+ 
