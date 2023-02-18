@@ -120,5 +120,20 @@ double x = (-b2 + b1)/(-k1 + k2);
 double y = k2 * x + b2;
 
 Console.WriteLine($"две прямые пересекутся в точке с координатами X: {x}, Y: {y}");  
-*/  
+*/   
+/*
 
+int[]RandomArray(int size,int minValue,int maxValua)  
+{ 
+    int[] array = new int [size];  
+    for(int i = 0;i < size; i++)  
+    array[i] = new Random().Next(minValue,maxValua +1);  
+    return array;
+}  
+void ShowArray (int[]array)  
+{  
+    for(int i = 0;i < array.Length; i++)  
+    Console.Write(array[i] + " ");  
+    Console.WriteLine();
+}
+*/  
