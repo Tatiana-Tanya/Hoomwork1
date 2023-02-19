@@ -156,4 +156,69 @@ double [,] numbers  = new double [rows,columns ];
 FillArray2D(numbers);
 PrintArray2D(numbers);  
 */  
+//Задача 50. Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает 
+ //значение этого элемента или же указание, что такого элемента нет.
+ //Во вводе первая цифра - номер строки, вторая - столбца. Цифры не больше 9.   
+ /*  
+ void FillArray2D(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            array[i, j] = new Random().Next(1, 10);
+        }
+    }
+}  
+void PrintArray2D(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}  
 
+
+Console.WriteLine("Input rows =");  
+int rows = Convert.ToInt32(Console.ReadLine());  
+Console.WriteLine("Input columns =");  
+int columns = Convert.ToInt32(Console.ReadLine());  
+int[,] numbers = new int[6, 8];
+FillArray2D(numbers);
+PrintArray2D(numbers);    
+*/  
+//Задача 52. Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.  
+/* 
+Random random  = new Random ();
+int[,] arr = new int[random.Next(1, 10), random.Next(1, 10)];
+for    (int i=0; i<arr.GetLength(0); i++) 
+{
+    for    (int j=0; j<arr.GetLength(1);j++) 
+    {
+        arr[i, j] = random.Next(1, 10);
+        Console.Write(arr[i, j] + " ");
+    }
+    Console.WriteLine();
+}
+Console.WriteLine("---------------------------");
+Console.WriteLine(arr.GetLength(0));
+for (int j = 0; j < arr.GetLength(1); j++)
+{
+    double sum = 0;
+    for (int i = 0; i < arr.GetLength(0); i++)
+    {
+        sum += arr[i, j];
+    }
+    Console.Write($"{ sum / arr.GetLength(0)} ");
+}
+Console.ReadLine();    
+*/  
+
+
+
+ 
