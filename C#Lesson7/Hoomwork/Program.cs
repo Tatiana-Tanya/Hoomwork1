@@ -33,9 +33,53 @@ int maxValua = Convert.ToInt32(Console.ReadLine());
   Show2dArray(newArray);  
   */ 
    
-  //2/Задайте двумерный массив. Найдите элементы, у которых оба индекса чётные, и замените эти элементы на их квадраты
+  //2/Задайте двумерный массив. Найдите элементы, у которых оба индекса чётные, и замените эти элементы на их квадраты  
+  int[,]FillArray (int rows,int columns)  
+{
+    int[,]matrix = new int [rows,columns];  
+    for(int i = 0; i < rows; i++)  
+    {
+      for(int j = 0; j < columns; j++) 
+      { 
+        matrix[i,j] = new Random().Next(1,20);
+      }
+
+    }
+   return matrix;
+}    
+void PrintArray(int [,] matr)  
+{  
+   for(int i = 0;i < matr.GetLength(0); i++)  
+   {
+     for(int j = 0;j <matr.GetLength(1); j++)  
+     {
+      Console.Write($" {matr[i,j]}");
+
+     }
+     Console.WriteLine();
+   }
+}    
+void MakeKvadratEvenNumbers(int[,]array)  
+{
+  for (int i = 0; i < array.GetLength(0);i++)  
+    for(int j = 0; j < array.GetLength(1);j++)
+    {
+      if(i % 2 == 0 && j % 2 == 0)  
+        array[i,j] = array[i,j]* array[i,j];
+    }
+
+}  
+Console.WriteLine("Input rows =");  
+int rows = Convert.ToInt32(Console.ReadLine());  
+Console.WriteLine("Input columns =");  
+int columns = Convert.ToInt32(Console.ReadLine());   
+int[,] array = FillArray(rows,columns);
+PrintArray(array);  
+MakeKvadratEvenNumbers(array);  
+PrintArray(array);
 //1.Задайте двумерный массив размера m на n, каждый элемент в массиве находится по формуле: Aij = i+j. Выведите полученный массив на экра       
-//н.  
+//н.   
+/*  
 int[,]FillArray (int rows,int columns)  
 {
     int[,]matrix = new int [rows,columns];  
@@ -67,7 +111,8 @@ Console.WriteLine("Input columns =");
 int columns = Convert.ToInt32(Console.ReadLine());   
 int[,]matrix = FillArray(rows,columns);  
 
-PrintArray(matrix);
+PrintArray(matrix);  
+*/
 //3.Задайте двумерный массив. Найдите сумму элементов, находящихся на главной диагонали (с индексами (0,0); (1;1) и т.д.  
 //Задайте двумерный массив. Напишите программу, которая поменяет местами первую и последнюю строку массива.
 
