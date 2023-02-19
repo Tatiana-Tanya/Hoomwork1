@@ -33,7 +33,8 @@ int maxValua = Convert.ToInt32(Console.ReadLine());
   Show2dArray(newArray);  
   */ 
    
-  //2/Задайте двумерный массив. Найдите элементы, у которых оба индекса чётные, и замените эти элементы на их квадраты  
+  //2/Задайте двумерный массив. Найдите элементы, у которых оба индекса чётные, и замените эти элементы на их квадраты 
+  /* 
   int[,]FillArray (int rows,int columns)  
 {
     int[,]matrix = new int [rows,columns];  
@@ -76,7 +77,8 @@ int columns = Convert.ToInt32(Console.ReadLine());
 int[,] array = FillArray(rows,columns);
 PrintArray(array);  
 MakeKvadratEvenNumbers(array);  
-PrintArray(array);
+PrintArray(array);  
+*/
 //1.Задайте двумерный массив размера m на n, каждый элемент в массиве находится по формуле: Aij = i+j. Выведите полученный массив на экра       
 //н.   
 /*  
@@ -119,4 +121,39 @@ PrintArray(matrix);
 //Задача 1.Задайте двумерный массив. Напишите программу, которая заменяет строки на столбцы.(столбцы =строкам),метод преобразующий. Только пошел по нужным.  
 //Задача 2.Из двумерного массива целых чисел удалить строку и столбец, на пересечении которых расположен наим
 //еньший элемент.Найти мин элемент(индекс),сгенировать новый массив(проверка,как сделать)два метода  
-//mathprofi(произведение матриц)
+//mathprofi(произведение матриц)  
+//Задача 47. 
+//Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.  
+/*  
+void FillArray2D(double[,] array)
+{
+    for    (int i=0;   i<array.GetLength(0); i++)
+    {
+        for    (int j=0;   j<array.GetLength(1); j++)
+        {
+            array [i, j] = new Random ().Next(-99, 99) / 10.0;
+        }
+    }
+}  
+void PrintArray2D(double[,] array)
+{
+    for(int i =0; i <  array.GetLength(0); i++)
+    {
+        for  (int j=0; j<array.GetLength(1); j++)
+        {
+            Console.Write(array [i, j] + " ");
+        }
+        Console.WriteLine();
+    }
+    Console.WriteLine();
+}  
+
+Console.WriteLine("Input rows =");  
+int rows = Convert.ToInt32(Console.ReadLine());  
+Console.WriteLine("Input columns =");  
+int columns = Convert.ToInt32(Console.ReadLine());
+double [,] numbers  = new double [rows,columns ];
+FillArray2D(numbers);
+PrintArray2D(numbers);  
+*/  
+
