@@ -252,5 +252,16 @@ Console.Write($"Наименьшая сумма элементов: {sumInLines[
 Print2DArray(numbers);
 SumInLines(numbers);  
 */  
-
+using System;
+class InputCosoleDemo{
+    static void Main(){
+        string name;
+        Console.Title=("Давайте познакомимся");
+        Console.Write("Как вас зовут?");
+        name=Console.ReadLine();
+        string txt="Очень приятно,"+name+"!";
+        Console.Title = "Знакомство состоялось";
+        Console.WriteLine(txt);
+    }
+}
 
