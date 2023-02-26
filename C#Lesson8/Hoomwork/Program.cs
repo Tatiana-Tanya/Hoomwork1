@@ -251,7 +251,8 @@ Console.Write($"Наименьшая сумма элементов: {sumInLines[
  Fill2DArray(numbers);
 Print2DArray(numbers);
 SumInLines(numbers);  
-*/  
+*/    
+/* 
 using System;
 class InputCosoleDemo{
     static void Main(){
@@ -264,4 +265,32 @@ class InputCosoleDemo{
         Console.WriteLine(txt);
     }
 }
+*/
+//Задайте значение N. Напишите программу, которая выведет все натуральные числа в промежутке от 1 до N
+/*
 
+
+void ShowNums( int num)  
+{ 
+    Console.Write(num + " ");
+    if(num > 1) ShowNums(num - 1);
+    Console.Write(num + " ");
+}
+ShowNums(5);  
+*/
+
+//Напишите программу, которая будет принимать на вход число и возвращать сумму его цифр.
+/*
+
+int SumOfDigits (int num)
+{
+    if (num !=0)  return SumOfDigits(num / 10) + num % 10;
+    else return 0;
+}
+int result = SumOfDigits(123);
+Console.WriteLine(result);
+*/
+
+// Задача 1.Задайте значения M и N. Напишите программу, которая выведет все натуральные числа в промежутке от M до N.
+
+//Задача 2.Напишите программу, которая на вход принимает два числа A и B, и возводит число А в целую степень B.
