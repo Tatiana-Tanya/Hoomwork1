@@ -53,3 +53,14 @@ def even_numbers(n):
 n = int(input("Введите число: "))
 even_numbers(n)   
 '''
+data = open('test.txt',encoding = 'utf-8')
+text = data.readlines()
+phrase = text[0].split(':')
+bot = {}
+bot[phrase[0]] = phrase[1]
+print(bot)
+
+data.close()
+
+q = input()
+print(bot[q])
