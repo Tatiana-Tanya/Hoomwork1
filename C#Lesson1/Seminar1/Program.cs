@@ -109,7 +109,7 @@ if(not)
     Console.WriteLine("Второе число"+ num_B + "больше чем первое" + num_A);  
   }   
   */ 
-   
+   kjugk,ufg.kug
 
 
 
