@@ -24,4 +24,4 @@ public class tast1_1 {
     }
 }   
 
-
+//
